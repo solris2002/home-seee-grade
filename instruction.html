@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hướng dẫn dự đoán kết quả học tập</title>
+  <link rel="stylesheet" href="./instruction.css" />
+</head>
+
+<body>
+  <a href="index.html" class="back-home" aria-label="Quay về trang chủ">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+    </svg>
+    <span>Trang chủ</span>
+  </a>
+
+  <button id="theme-toggle" class="theme-toggle" aria-label="Đổi chế độ giao diện" aria-pressed="false">
+    <span class="icon" aria-hidden="true">☀️</span>
+    <span class="sr-only">Đổi chế độ giao diện</span>
+  </button>
+  <div class="container">
+    <!-- Giới thiệu -->
+    <header class="intro">
+      <h1>HƯỚNG DẪN DỰ ĐOÁN KẾT QUẢ HỌC TẬP</h1>
+      <p>
+        Trang này cung cấp hướng dẫn chi tiết cách sử dụng các chức năng dự đoán
+        CPA/GPA và điểm từng môn học. Bạn hãy làm theo từng bước minh họa bên dưới.
+      </p>
+
+      <div class="about-project">
+        <div class="about-item">
+          <span class="icon">👨‍💻</span>
+          <p><strong>Tác giả:</strong> Vũ Mạnh Hùng</p>
+        </div>
+        <div class="about-item">
+          <span class="icon">🛠️</span>
+          <p><strong>Công nghệ:</strong> Python, Streamlit, Machine Learning</p>
+        </div>
+        <div class="about-item">
+          <span class="icon">🎯</span>
+          <p><strong>Mục đích:</strong> Hỗ trợ sinh viên dự đoán kết quả học tập nhanh chóng và trực quan</p>
+        </div>
+        <div class="about-item">
+          <span class="icon">📩</span>
+          <p><strong>Liên hệ:</strong> support@example.com</p>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Hướng dẫn sử dụng -->
+    <section class="guide">
+      <h2>Hướng dẫn sử dụng</h2>
+
+      <!-- CPA / GPA -->
+      <article class="step">
+        <h3>1. Dự đoán CPA / GPA</h3>
+        <p>Bước 1: Nhập thông tin bảng điểm đã có sẵn (hoặc từng môn).</p>
+        <img src="https://placehold.co/600x400" alt="Ảnh minh họa bước 1">
+        <p>Bước 2: Chọn tính toán CPA hoặc GPA mong muốn.</p>
+        <img src="https://placehold.co/600x400" alt="Ảnh minh họa bước 2">
+      </article>
+
+      <!-- Find subject score -->
+      <article class="step">
+        <h3>2. Dự đoán điểm từng môn</h3>
+        <p>Bước 1: Chọn môn học bạn muốn dự đoán.</p>
+        <img src="https://placehold.co/600x400" alt="Ảnh minh họa bước 1">
+        <p>Bước 2: Nhập số liệu liên quan (điểm giữa kỳ, chuyên cần, lab...).</p>
+        <img src="https://placehold.co/600x400" alt="Ảnh minh họa bước 2">
+        <p>Bước 3: Nhấn nút <strong>Dự đoán</strong> để xem kết quả.</p>
+        <img src="https://placehold.co/600x400" alt="Ảnh minh họa bước 3">
+      </article>
+    </section>
+
+    <!-- QR -->
+    <section class="qr-section">
+      <div class="qr-card">
+        <img src="./img/survey-qr.jpg" alt="QR Khảo sát góp ý" />
+        <p>Khảo sát góp ý</p>
+      </div>
+      <div class="qr-card">
+        <img src="./img/donate-qr.jpg" alt="QR Donate dự án" />
+        <p>Donate dự án</p>
+      </div>
+    </section>
+  </div>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
